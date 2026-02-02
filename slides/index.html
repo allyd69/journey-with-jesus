@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40-Day Journey with Jesus - Presentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;600&display=swap');
+        
+        :root {
+            --week-1: #FF6B6B;
+            --week-2: #4ECDC4;
+            --week-3: #FFE66D;
+            --week-4: #95E1D3;
+            --week-5: #F38181;
+            --week-6: #AA96DA;
+        }
+        
+        .reveal {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f13 0%, #1a1a2e 100%);
+        }
+        
+        .reveal h1, .reveal h2, .reveal h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+        
+        .reveal h1 {
+            font-size: 3.5em;
+            color: #fff;
+            text-shadow: 0 4px 30px rgba(255, 107, 107, 0.3);
+        }
+        
+        .reveal h2 {
+            font-size: 2.2em;
+            color: #FF6B6B;
+        }
+        
+        .reveal h3 {
+            font-size: 1.5em;
+            color: #4ECDC4;
+        }
+        
+        .reveal p {
+            font-weight: 300;
+            line-height: 1.6;
+        }
+        
+        .reveal .slides section {
+            padding: 40px;
+        }
+        
+        .reveal .slides section.title-slide {
+            background: radial-gradient(ellipse at center, rgba(255, 107, 107, 0.15) 0%, transparent 70%);
+        }
+        
+        .scripture {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 1.3em;
+            border-left: 4px solid #FF6B6B;
+            padding-left: 30px;
+            margin: 30px 0;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.95);
+        }
+        
+        .scripture-ref {
+            display: block;
+            margin-top: 15px;
+            font-style: normal;
+            font-weight: 600;
+            color: #FF6B6B;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .science-box {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            text-align: left;
+        }
+        
+        .science-box h3 {
+            color: #4ECDC4;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .reveal ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reveal ul li {
+            padding: 10px 0 10px 35px;
+            position: relative;
+            text-align: left;
+        }
+        
+        .reveal ul li:before {
+            content: "◆";
+            position: absolute;
+            left: 0;
+            color: #FF6B6B;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            text-align: left;
+        }
+        
+        .three-column {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            text-align: center;
+        }
+        
+        .column-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .highlight {
+            color: #FF6B6B;
+            font-weight: 600;
+        }
+        
+        .big-number {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 5em;
+            font-weight: 700;
+            color: #FF6B6B;
+            line-height: 1;
+            margin: 0;
+        }
+        
+        .quote {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8em;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 40px 0;
+        }
+        
+        .reveal .fragment {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s ease;
+        }
+        
+        .reveal .fragment.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .bg-gradient-1 { background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, transparent 100%) !important; }
+        .bg-gradient-2 { background: linear-gradient(135deg, rgba(78, 205, 196, 0.1) 0%, transparent 100%) !important; }
+        .bg-gradient-3 { background: linear-gradient(135deg, rgba(255, 230, 109, 0.1) 0%, transparent 100%) !important; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- SLIDE 1: Title -->
+            <section class="title-slide" data-background="radial-gradient(ellipse at center, rgba(255,107,107,0.15) 0%, transparent 70%)">
+                <p style="text-transform: uppercase; letter-spacing: 0.3em; color: rgba(255,255,255,0.6); margin-bottom: 20px;">A New Approach to Spiritual Formation</p>
+                <h1>40-Day Journey<br>with Jesus</h1>
+                <p class="quote" style="font-size: 1.3em; margin-top: 30px;">"Rewiring Your Mind,<br>Renewing Your Spirit"</p>
+                <p style="margin-top: 50px; color: rgba(255,255,255,0.5);">Where Neuroscience Meets Scripture</p>
+            </section>
+            
+            <!-- SLIDE 2: The Problem -->
+            <section>
+                <h2>The Modern Dilemma</h2>
+                <div class="two-column">
+                    <div>
+                        <h3 style="color: #FF6B6B;">We Know Truth...</h3>
+                        <ul>
+                            <li>We read Scripture</li>
+                            <li>We attend church</li>
+                            <li>We study theology</li>
+                            <li>We know the right answers</li>
+                        </ul>
+                    </div>
+                    <div class="fragment">
+                        <h3 style="color: #4ECDC4;">But Struggle to Transform</h3>
+                        <ul>
+                            <li>Old patterns persist</li>
+                            <li>Habits are hard to break</li>
+                            <li>Knowledge ≠ Change</li>
+                            <li>We feel stuck</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="fragment quote" style="margin-top: 40px;">"Why don't I change even when I want to?"</p>
+            </section>
+            
+            <!-- SLIDE 3: The Missing Link -->
+            <section class="bg-gradient-1">
+                <h2>The Missing Link</h2>
+                <p class="quote">"Be transformed by the <span class="highlight">renewing of your mind</span>"</p>
+                <p style="text-align: right; color: rgba(255,255,255,0.6);">— Romans 12:2</p>
+                
+                <div class="fragment" style="margin-top: 50px;">
+                    <p>Paul didn't just say "try harder" or "read more"</p>
+                    <p class="highlight" style="font-size: 1.3em; margin-top: 20px;">He said RENEW your MIND</p>
+                </div>
+                
+                <div class="fragment" style="margin-top: 40px;">
+                    <p>But HOW?</p>
+                    <p style="color: rgba(255,255,255,0.7);">Until now, we didn't have the full answer...</p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 4: Neuroscience Discovery -->
+            <section>
+                <h2>The Discovery</h2>
+                <p style="color: rgba(255,255,255,0.7); margin-bottom: 40px;">What modern neuroscience reveals about ancient truth</p>
+                
+                <div class="three-column">
+                    <div class="column-box fragment">
+                        <p class="big-number">700</p>
+                        <p>new neural connections formed <strong>every second</strong></p>
+                    </div>
+                    <div class="column-box fragment">
+                        <p class="big-number">40-60</p>
+                        <p>days to establish a <strong>new neural pathway</strong></p>
+                    </div>
+                    <div class="column-box fragment">
+                        <p class="big-number">40%</p>
+                        <p>of daily actions are <strong>habits, not decisions</strong></p>
+                    </div>
+                </div>
+                
+                <p class="fragment quote" style="margin-top: 50px;">Your brain is <span class="highlight">plastic</span>. It changes based on what you repeatedly think, feel, and do.</p>
+            </section>
+            
+            <!-- SLIDE 5: The Solution -->
+            <section class="bg-gradient-2">
+                <h2>The Solution</h2>
+                <h3 style="color: #4ECDC4; margin-bottom: 30px;">A 40-Day Immersive Experience</h3>
+                
+                <div class="two-column" style="text-align: left;">
+                    <div>
+                        <p><strong style="color: #FF6B6B;">Daily Structure:</strong></p>
+                        <ul>
+                            <li>Scripture with Declaration</li>
+                            <li>Neuroscience Insight</li>
+                            <li>Brain Training Exercises</li>
+                            <li>Journal Prompts</li>
+                            <li>Daily Practice</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p><strong style="color: #4ECDC4;">Unique Features:</strong></p>
+                        <ul>
+                            <li>100 Gratitude Prompts</li>
+                            <li>100 Prayer Guides</li>
+                            <li>30 Top Tips</li>
+                            <li>Progress Tracking</li>
+                            <li>Offline Capability</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 6: The 6 Weeks -->
+            <section>
+                <h2>The Journey Structure</h2>
+                <p style="margin-bottom: 40px;">Six weeks, six themes, one transformed life</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left;">
+                    <div class="column-box" style="border-left: 4px solid #FF6B6B;">
+                        <h3 style="color: #FF6B6B; font-size: 1.1em;">Week 1</h3>
+                        <p><strong>Architecture of Belief</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Neuroplasticity & Identity</p>
+                    </div>
+                    <div class="column-box" style="border-left: 4px solid #4ECDC4;">
+                        <h3 style="color: #4ECDC4; font-size: 1.1em;">Week 2</h3>
+                        <p><strong>Emotional Intelligence</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Limbic System & Spiritual Fruit</p>
+                    </div>
+                    <div class="column-box" style="border-left: 4px solid #FFE66D;">
+                        <h3 style="color: #FFE66D; font-size: 1.1em;">Week 3</h3>
+                        <p><strong>Language of Transformation</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Speech & Neural Pathways</p>
+                    </div>
+                    <div class="column-box" style="border-left: 4px solid #95E1D3;">
+                        <h3 style="color: #95E1D3; font-size: 1.1em;">Week 4</h3>
+                        <p><strong>Relational Rewiring</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Social Neuroscience</p>
+                    </div>
+                    <div class="column-box" style="border-left: 4px solid #F38181;">
+                        <h3 style="color: #F38181; font-size: 1.1em;">Week 5</h3>
+                        <p><strong>Purpose & Calling</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Executive Function</p>
+                    </div>
+                    <div class="column-box" style="border-left: 4px solid #AA96DA;">
+                        <h3 style="color: #AA96DA; font-size: 1.1em;">Week 6</h3>
+                        <p><strong>Integration & Commission</strong></p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.7);">Holistic Transformation</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 7: Sample Day 1 -->
+            <section style="border-left: 8px solid #FF6B6B;">
+                <p style="text-transform: uppercase; letter-spacing: 0.2em; color: #FF6B6B; font-size: 0.9em;">Sample Day</p>
+                <h2 style="color: #FF6B6B;">Day 1: The Root Access</h2>
+                <p style="color: rgba(255,255,255,0.7);">Grace Rewires Effort</p>
+                
+                <div class="scripture">
+                    <p>"For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."</p>
+                    <span class="scripture-ref">Ephesians 2:8-9</span>
+                </div>
+                
+                <div class="science-box">
+                    <h3>🧠 Science: Neuroplasticity</h3>
+                    <p>Your brain forms 700 new neural connections every second. What you repeatedly think, do, and feel literally reshapes your brain structure.</p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 8: Brain Training -->
+            <section>
+                <h2>Daily Brain Training</h2>
+                <p style="margin-bottom: 40px;">Evidence-based exercises to rewire neural pathways</p>
+                
+                <div class="three-column">
+                    <div class="column-box fragment">
+                        <h3 style="color: #FF6B6B;">🫁</h3>
+                        <p><strong>Grace Breathing</strong></p>
+                        <p style="font-size: 0.9em;">3 minutes to activate parasympathetic nervous system</p>
+                    </div>
+                    <div class="column-box fragment">
+                        <h3 style="color: #4ECDC4;">🗣️</h3>
+                        <p><strong>Identity Declaration</strong></p>
+                        <p style="font-size: 0.9em;">Speak truth to strengthen new neural pathways</p>
+                    </div>
+                    <div class="column-box fragment">
+                        <h3 style="color: #FFE66D;">🧠</h3>
+                        <p><strong>Neural Visualization</strong></p>
+                        <p style="font-size: 0.9em;">Mental imagery to reinforce change</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 9: Key Concepts -->
+            <section>
+                <h2>Key Neuroscience Concepts</h2>
+                
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; text-align: left; font-size: 0.85em;">
+                    <div class="column-box">
+                        <h3 style="color: #FF6B6B;">🧠 Neuroplasticity</h3>
+                        <p>The brain's ability to reorganize itself by forming new neural connections throughout life.</p>
+                    </div>
+                    <div class="column-box">
+                        <h3 style="color: #4ECDC4;">😰 Amygdala</h3>
+                        <p>Fear center that can be regulated through prayer and breathing techniques.</p>
+                    </div>
+                    <div class="column-box">
+                        <h3 style="color: #FFE66D;">🎯 Prefrontal Cortex</h3>
+                        <p>Executive function center for decision-making and impulse control.</p>
+                    </div>
+                    <div class="column-box">
+                        <h3 style="color: #95E1D3;">⚡ Dopamine</h3>
+                        <p>The motivation molecule that drives goal pursuit and habit formation.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 10: The Result -->
+            <section class="bg-gradient-3">
+                <h2>The Result</h2>
+                
+                <div class="quote" style="font-size: 2em;">
+                    "Not conformed,<br>but <span class="highlight">transformed</span>"
+                </div>
+                
+                <div class="fragment" style="margin-top: 50px;">
+                    <p style="font-size: 1.2em;">After 40 days:</p>
+                    <ul style="display: inline-block; text-align: left; margin-top: 20px;">
+                        <li>New neural pathways established</li>
+                        <li>Truth integrated at identity level</li>
+                        <li>Habits aligned with values</li>
+                        <li>Mind renewed, spirit transformed</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- SLIDE 11: Deployment -->
+            <section>
+                <h2>How to Access</h2>
+                <p style="margin-bottom: 40px;">Available on any device, anywhere</p>
+                
+                <div class="two-column">
+                    <div class="column-box" style="text-align: center;">
+                        <h3 style="color: #4ECDC4;">🌐 Web App</h3>
+                        <p>GitHub Pages deployment</p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.6);">Works on any browser</p>
+                        <p style="font-size: 0.8em; margin-top: 15px;">allyd69.github.io/journey-with-jesus</p>
+                    </div>
+                    <div class="column-box" style="text-align: center;">
+                        <h3 style="color: #FFE66D;">💻 Terminal</h3>
+                        <p>Termux / Linux / macOS</p>
+                        <p style="font-size: 0.9em; color: rgba(255,255,255,0.6);">Works offline</p>
+                        <p style="font-size: 0.8em; margin-top: 15px;">One-line install command</p>
+                    </div>
+                </div>
+                
+                <p class="fragment" style="margin-top: 40px; color: rgba(255,255,255,0.7);">Open source • Free forever • No ads • No data collection</p>
+            </section>
+            
+            <!-- SLIDE 12: Call to Action -->
+            <section class="title-slide" data-background="radial-gradient(ellipse at center, rgba(170,150,218,0.15) 0%, transparent 70%)">
+                <h2 style="font-size: 2.5em;">Begin Your Journey</h2>
+                <p class="quote" style="margin: 40px 0;">"He who began a good work in you<br>will carry it on to completion."</p>
+                <p style="color: rgba(255,255,255,0.6);">— Philippians 1:6</p>
+                
+                <div style="margin-top: 60px;">
+                    <p style="font-size: 1.3em; color: #AA96DA;">40 Days. One Transformed Life.</p>
+                    <p style="margin-top: 20px; color: rgba(255,255,255,0.5);">Start today.</p>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            showSlideNumber: 'all',
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            center: true,
+            width: 1200,
+            height: 700,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>
